@@ -4,7 +4,7 @@ class Solution {
 
         for (int num : nums) {
             if (!set.add(num)) {
-                return true; // duplicate found
+                return true; 
             }
         }
 
